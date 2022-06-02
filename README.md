@@ -5,8 +5,8 @@ These keys will be used as we continue our supply chain security efforts.
 
 To add your key:
 
-1. Ensure you are in Engineering org in Github. If not, contact @andrewrynhard, @smira, @rsmitty to get added.
-1. Clone https://github.com/talos-systems/signing-keys
+1. Ensure you are in Engineering org in GitHub. If not, contact @andrewrynhard, @smira, @rsmitty to get added.
+1. Clone https://github.com/siderolabs/signing-keys
 1. Find your key: `gpg -k`
 1. Export your public key: `gpg --armor --export <id> > <GitHub username>.pgp`
 1. git add <GitHub username>.pgp, git commit -S.
